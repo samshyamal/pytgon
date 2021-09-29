@@ -6,3 +6,4 @@ elif(a<b):
   print("sub",b-a)
 else:
   print("no. are equale")
+
