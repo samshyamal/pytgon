@@ -1,0 +1,7 @@
+class : Employee
+Attributes : empid,empname,dept,grade,project
+Functions:
+       getempdetails()
+       createTimesheet()
+       updateTimesheet()
+       displayTimesheet()

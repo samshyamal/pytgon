@@ -7,7 +7,14 @@ class timesheet:
         self.description=description
         self.status=status
    def display(self):
+      if self.noofhours>40:
+        raise Exception("Value too large")
       print(self.activity)
 
-t = timesheet("20-7-2021",8,"coading","deployment","in_progress")
+
+
+
+t = timesheet("20-7-2021",80,"coading","deployment","in_progress")
 t.display()
+
+
